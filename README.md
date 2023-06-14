@@ -13,7 +13,9 @@ This code is built on [Bitcraze's Arduino driver](https://github.com/bitcraze/Bi
 ### Python Setup
 5. Install __PySerial__ into your Python envornment using ```pip install pyserial```
 6. Open the code under the ```Python Code``` folder.
-7. Run the introductory code in ```main.py```
+7. Find which port your Arduino is under by running ```python -m serial.tools.list_ports``` or checking the select board dropdown on the Arduino IDE.
+8. Replace your port number on line 5 in ```example.py```
+9. Run the introductory code in ```example.py```
 
 
 
