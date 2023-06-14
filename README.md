@@ -3,3 +3,17 @@
 
 ## Setup
 This code is built on [Bitcraze's Arduino driver](https://github.com/bitcraze/Bitcraze_PMW3901), which is necessary for this project.
+
+### Arduino Setup
+1. Download the [Bitcraze's Arduino driver](https://github.com/bitcraze/Bitcraze_PMW3901)
+2. Open the Arduino IDE.
+3. ```Sketch > Include Library > Add .ZIP Library...``` and select your downloaded folder to install the driver as a library.
+4. Run ```sketch.ino``` under the ```Arduino Code``` folder or paste the code into a new sketch.
+
+### Python Setup
+5. Install __PySerial__ into your Python envornment using ```pip install pyserial```
+6. Open the code under the ```Python Code``` folder.
+7. Run the introductory code in ```main.py```
+
+
+
