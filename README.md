@@ -1,7 +1,11 @@
 # PAA5100JE/PMW3901 Arduino Python Reader
 Access and read distance data from PAA5100JE and PMW3901 for Arduino in Python.
 
-## Setup
+
+<details>
+  <summary>## Setup</summary>
+  
+
 This code is built on [Bitcraze's Arduino driver](https://github.com/bitcraze/Bitcraze_PMW3901), which is necessary for this project.
 
 ### Arduino Setup
@@ -21,6 +25,9 @@ This code is built on [Bitcraze's Arduino driver](https://github.com/bitcraze/Bi
 ## Common Errors
 **Could not open port 'COM_': PermissionError(13, 'Access is denied.', None, 5)**<br>
 This is because you have a process already running at that port, whether it's the uploaded code on Arduino, or another instance of a Python environment. Close out the Arduino IDE and delete the Python terminal and rerun
+</details>
+
+
 
 # Arduino-PMW3901 with PySerial
 
