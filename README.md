@@ -29,7 +29,7 @@ This is because you have a process already running at that port, whether it's th
 
 
 
-# Arduino-PMW3901 with PySerial
+# PAA5100JE/PMW3901 with PySerial
 
 This repository contains Python and Arduino code for interfacing with a PMW3901 optical flow sensor on an Arduino board. The Python code reads the accumulated X and Y movement counts since initialization or the last reset and the Arduino code calculates these counts.
 
