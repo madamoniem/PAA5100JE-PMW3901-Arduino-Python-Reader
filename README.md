@@ -3,7 +3,7 @@ Access and read distance data from PAA5100JE and PMW3901 for Arduino in Python.
 
 
 <details>
-  <summary>## Setup</summary>
+  <summary><h1>Setup</h1></summary>
   
 
 This code is built on [Bitcraze's Arduino driver](https://github.com/bitcraze/Bitcraze_PMW3901), which is necessary for this project.
